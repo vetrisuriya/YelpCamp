@@ -404,9 +404,12 @@ main.search-page, main.search-page1 {
     footer {
         width: $width;
         height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        .footer-logo {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 
     nav#mobile-nav {
@@ -528,9 +531,12 @@ main.add-campground, main.add-comment {
     footer {
         width: $width;
         height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        .footer-logo {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 
     nav#mobile-nav {
@@ -756,9 +762,12 @@ main.post-page, main.post-page1 {
     footer {
         width: $width;
         height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        .footer-logo {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 
     nav#mobile-nav {

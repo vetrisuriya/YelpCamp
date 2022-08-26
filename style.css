@@ -520,15 +520,18 @@ main.search-page section.main .section-main div.camps .camp .camp-link a, main.s
 main.search-page footer, main.search-page1 footer {
   width: 70%;
   height: auto;
+}
+main.search-page footer .footer-logo, main.search-page1 footer .footer-logo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 main.search-page nav#mobile-nav, main.search-page1 nav#mobile-nav {
   display: none;
@@ -669,15 +672,18 @@ main.add-campground section.main > div form .form-group:nth-of-type(5), main.add
 main.add-campground footer, main.add-comment footer {
   width: 70%;
   height: auto;
+}
+main.add-campground footer .footer-logo, main.add-comment footer .footer-logo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 main.add-campground nav#mobile-nav, main.add-comment nav#mobile-nav {
   display: none;
@@ -963,15 +969,18 @@ main.post-page section.main .section-right .camp-comment .comment-review a, main
 main.post-page footer, main.post-page1 footer {
   width: 70%;
   height: auto;
+}
+main.post-page footer .footer-logo, main.post-page1 footer .footer-logo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 main.post-page nav#mobile-nav, main.post-page1 nav#mobile-nav {
   display: none;
