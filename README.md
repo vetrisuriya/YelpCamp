@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://rvs-yelpcamp.netlify.app/">Preview Website</a>
+    <a href="https://rvs-yelpcamp.vercel.app/">Preview Website</a>
   </h3>
 </div>
 
@@ -21,6 +21,10 @@
 - [CSS3](#!)
 - [Javascript](#!)
 - [SASS](#!)
+
+## Hosting
+
+- [Vercel](https://vercel.com/)
 
 ## Contact
 
