@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Campground - YelpCamp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main class="add-campground">
+        <header>
+            <div class="menu-1">
+                <div class="header-logo">
+                    <a href="index.html"><img src="./Assets/Logo.svg" alt=""></a>
+                </div>
+                <div class="header-menu">
+                    <a href="search.html">Home</a>
+                </div>
+            </div>
+            <div class="header-menu">
+                <a href="#!">Nathan Drake</a>
+                <a href="#!">Logout</a>
+            </div>
+            <div class="menu-2" id="mobile-nav-btn">
+                <img src="./Assets/Hamburger Menu.svg" alt="">
+            </div>
+        </header>
+
+        <nav id="mobile-nav">
+            <ul>
+                <li><a href="search.html">Home</a></li>
+                <li><a href="#!">Nathan Drake</a></li>
+                <li><a href="#!">Logout</a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <div>
+                <h1>Add New Campground</h1>
+                <form action="#!">
+                    <div class="form-group">
+                        <label for="camp_name">Campground Name</label>
+                        <input type="text" id="camp_name" name="camp_name" placeholder="Yercaud">
+                    </div>
+                    <div class="form-group">
+                        <label for="camp_price">Price</label>
+                        <input type="text" id="camp_price" name="camp_price" placeholder="₹4000">
+                    </div>
+                    <div class="form-group">
+                        <label for="camp_image">Image</label>
+                        <input type="text" id="camp_image" name="camp_image" placeholder="www.theworldexplorer.com/yercaud/">
+                    </div>
+                    <div class="form-group">
+                        <label for="camp_desc">Description</label>
+                        <textarea id="camp_desc" name="camp_desc" placeholder="Yercaud is a hill station town in the south Indian state of Tamil Nadu. It lies in the Shevaroy Hills, known for their orange groves, and coffee, fruit and spice plantations. Yercaud Lake has a boathouse, and is surrounded by gardens and woods. On the lake's eastern shore, Anna Park has local plants and a Japanese garden with bonsai. To the southwest, Lady's Seat vantage point has a watchtower with a telescope"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button>Add Campground</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-logo">
+                <a href="index.html"><img src="./Assets/Logo.svg" alt=""></a>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

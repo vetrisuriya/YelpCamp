@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Comment - YelpCamp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main class="add-comment">
+        <header>
+            <div class="menu-1">
+                <div class="header-logo">
+                    <a href="index.html"><img src="./Assets/Logo.svg" alt=""></a>
+                </div>
+                <div class="header-menu">
+                    <a href="search.html">Home</a>
+                </div>
+            </div>
+            <div class="header-menu">
+                <a href="#!">Nathan Drake</a>
+                <a href="#!">Logout</a>
+            </div>
+            <div class="menu-2" id="mobile-nav-btn">
+                <img src="./Assets/Hamburger Menu.svg" alt="">
+            </div>
+        </header>
+
+        <nav id="mobile-nav">
+            <ul>
+                <li><a href="search.html">Home</a></li>
+                <li><a href="#!">Nathan Drake</a></li>
+                <li><a href="#!">Logout</a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <div>
+                <h1>Add New Comment</h1>
+                <form action="#!">
+                    <div class="form-group">
+                        <label for="comm_desc">Description</label>
+                        <textarea id="comm_desc" name="comm_desc" placeholder="I had a great time with adventures team for a 2 days 1 night easy trekking! As I have no experience in hiking and trekking before"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button>Post Comment</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-logo">
+                <a href="index.html"><img src="./Assets/Logo.svg" alt=""></a>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
